@@ -112,7 +112,7 @@ async def end(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     """End Conversation by command."""
-    await update.message.reply_text("Okay, bye.")
+    await update.message.reply_text("Okay, bye!")
     return END
 
 
